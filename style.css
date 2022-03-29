@@ -50,7 +50,12 @@ ul a {
    display: flex;
    justify-content: right;
    align-items: flex-end;
-   background-image:linear-gradient(teal, skyblue);
+   background-image: repeating-linear-gradient(
+    45deg,
+    blue 0px,
+    rgb(42, 136, 167) 20px,
+    #2a96ee 20px,
+    #6fb7f3 40px);
    height: 10vh;
 }
 
