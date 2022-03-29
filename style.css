@@ -175,9 +175,6 @@ ul a {
 }
 
 .LED1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
     height: 6vh;
     width: 10vw;
     margin-bottom: 1vh;
