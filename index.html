@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Lernantino</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
     <header>
-        <h1>Eric Taylor</h1>
-        <ul>
-            <a href="#about"><li>About Me</li></a>
-            <a href="#work"><li>Work</li></a>
-            <a href="#contact"><li>Contact Me</li></a>
-        </ul>
+        <div >
+            <h1><img id="selfie" src="./assets/Screen Shot 2022-04-18 at 7.02.48 PM.png">Eric Taylor</h1>  
+        </div>
     </header>
-
-    <section class="subtitle">
-        <img src="">
-        <button id="myResume">Download my Resume</button>
-    </section>
-
+<div class="resumed">
+    <ul>
+        <a href="#about"><li>About Me</li></a>
+        <a href="#work"><li>Work</li></a>
+        <a href="#contact"><li>Contact Me</li></a>
+    </ul>
+    <div id="resume">
+    <a href="./assets/Eric Taylor Resume 3.0.pdf" download><button id="myResume">Download my Resume</button></a>
+    </div>
+</div>
     <main>
         <section class="about-me">
-            <a id="about"></a><h1>About Me</h1> 
+            <a id="about"></a><h3>About Me</h3> 
             <h5>My name is Eric Taylor. I am a student in a coding bootcamp to become a full-stack web developer. Prior to this course, I spent 7 years owning and operating several multiple 6 figure companies in athletics. I graduated Saint Martin's Univeristy in 2013 with a Biology degree while being a 4 year scholarshiped basketball player.</h5>
         <br>
         <br>
@@ -34,7 +34,7 @@
 
         </section>
         <section class="work-box">
-            <a id="work"></a><h1>Work</h1> 
+            <a id="work"></a><h3>Work</h3> 
             <section class="Reports">
                 <section class="Surf">
                     <section class="MERN">
@@ -76,7 +76,7 @@
             </section>
         </section>
         <section class="contact-us">
-            <a id="contact"></a><h1>Contact<br>Me</h1> 
+            <a id="contact"></a><h3>Contact Me</h3> 
             <ul>
                 <a href=""><li>206.372.4315</li></a>
                 <a href="mailto:eric.taylor1012@gmail.com"><li>eric.taylor1012@gmail.com</li></a>
@@ -84,7 +84,6 @@
                 <a href="https://www.linkedin.com/in/eric-taylor-03181917a/"><li>LinkedIn</li></a>
             </ul>
         </section>
-
 
     </main>
     
