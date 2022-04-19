@@ -40,15 +40,16 @@ I felt successful in changing my layout to make it a more mobile-friendly option
 I initially tried to make a more mobile friendly site using bootstrap but struggled and decided to go with media queries to alter the layout for each screen type. 
 
 ## Deployed Application
-https://erict001.github.io/Weather-Dashboard/
+https://erict001.github.io/Eric-Portfolio/
 
 
 ## Usage
 
-When a city is searched, today's weather including temperature, wind speed, humidity level, and uv index plus the 5 day forecast with the same features displayed. 
+When a hiring manager receives this portfolio, they will use this page to help determine if I am a quality candidate for their company. 
 
-After a city is searched, it gets displayed underneath the search bar. 
 
-![LoadingPage](./maybe%20needed/Screen%20Shot%202022-04-17%20at%207.18.30%20PM.png)
+![Header](./assets/Screen%20Shot%202022-04-18%20at%2010.18.28%20PM.png)
 
-![LoadingPage](./maybe%20needed/Screen%20Shot%202022-04-17%20at%207.18.20%20PM.png)
+![Work Section](./assets/Screen%20Shot%202022-04-18%20at%2010.20.27%20PM.png)
+
+![Mobile Responsive](./assets/Screen%20Shot%202022-04-18%20at%2010.18.48%20PM.png)

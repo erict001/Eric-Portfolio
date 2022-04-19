@@ -315,7 +315,7 @@ ul a {
 /* large screen */
 @media screen and (max-width: 872px) {
     header {
-        height: 40vh;
+        height: 20vh;
     }
 }
 
